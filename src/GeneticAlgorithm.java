@@ -10,6 +10,7 @@ public class GeneticAlgorithm<T extends Individual<T>> {
     private final static double DEFAULT_MUTATION_RATIO = 0.01;
     private final static double DEFAULT_SELECTION_RATIO = 0.80;
     private final static double DEFAULT_UNIFORMITY_RATIO = 0.02;
+    private final static double DEFAULT_UNIFORMITY_RATIO_PATATE = 10;
 
     private int generationCount;
     private final Random random = new Random();
